@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Interests (Continued)</name>
   <packageId>Mlie.Interests</packageId>
@@ -12,7 +12,7 @@
   <modDependencies>
     <li>
       <packageId>Mlie.DInterestsFramework</packageId>
-      <displayName>Harmony</displayName>
+      <displayName>[D] Interests Framework (Continued)</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/2603675659</steamWorkshopUrl>
       <downloadUrl>https://github.com/emipa606/DInterestsFramework/releases/latest</downloadUrl>
     </li>
@@ -20,11 +20,11 @@
   <loadAfter>
     <li>Mlie.DInterestsFramework</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Dametris mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2089938084
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
@@ -33,9 +33,134 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2089938084
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h1]Overview[/h1]
+Interested? Leave a like!
+[img]https://i.imgur.com/FcAqtoA.png[/img]
+
+[h2]Designed for Rimworld 1.1, 1.2 [/h2]
+
+Overhauls the passion system, adding 11 new "interests" that affect colonists in good, bad, and strange ways when using the skills they're associated with.
+
+Add variety to your colonists' skills, with compulsive miners, chefs who fall asleep on the job, farmers who are allergic to plants - and much more.
+
+[b]Compatible with existing saves.[/b] Existing colonists won't have their passions transformed into new interests, but new pawns will be generated with them.
+
+Requires Harmony and Interests Framework: https://steamcommunity.com/sharedfiles/filedetails/?id=2089927321
+
+-------------------------------------------------------------------------------------------------
+
+[h1]Features[/h1]
+
+- [b]Rebalanced[/b] "No passion", "minor passion" and "major passion" to 50%, 90%, and 125% learn rate, respectively.
+
+- [b]New interests[/b] (in addition to the original 3) are generated based on the initial level of the character's associated skill, the type of associated skill, whether the colonist already has an interest of that type, and certain backstory elements and traits that may force either positive or negative interests for some skills.
+
+-[b]Customizable[/b] interests: control the learn rate for each interest, or whether they show up at all.
+
+[h2]New interests:[/h2]
+
+[h3]Invigorating[/h3]
+[img]https://i.imgur.com/eXiOkjy.png[/img]
+[b]Learn Rate:[/b] 40% 
+[b]Effect[/b]: Colonist loses rest at half the normal rate while using this skill.
+
+[h3]Vocal Hatred[/h3]
+[img]https://i.imgur.com/pSibiVw.png[/img]
+[b]Learn Rate:[/b] 100% 
+[b]Effect[/b]: All colonists in sight of the colonist with this interest lose joy (recreation) more quickly when working with this skill.
+
+[h3]Natural Genius[/h3]
+[img]https://i.imgur.com/4Ujrbas.png[/img] 
+[b]Learn Rate:[/b] 100%
+[b]Effect[/b]: Colonist automatically gains experience in the skill at a slow rate.
+
+[h3]Compulsion[/h3]
+[img]https://i.imgur.com/stqJl92.png[/img] 
+[b]Learn Rate:[/b] 160% 
+[b]Effect[/b]: Colonist has an extra need bar: they must use the skill occasionally, or they experience an increasing mood penalty.
+
+[h3]Major Aversion[/h3]
+[img]https://i.imgur.com/LTgSwbK.png[/img]
+[b]Learn Rate:[/b] 25%
+[b]Effect[/b]: Significant mood penalty when working with the associated skill.
+
+[h3]Minor Aversion[/h3]
+[img]https://i.imgur.com/In2Xi9o.png[/img]
+[b]Learn Rate:[/b] 40%
+[b]Effect[/b]: Mood penalty when working with the associated skill.
+
+[h3]Inspiring[/h3]
+[img]https://i.imgur.com/cIAIhTV.png[/img]
+[b]Learn Rate:[/b] 60% 
+[b]Effect[/b]: Colonist is much more likely (10x) to become inspired in this skill.
+
+[h3]Allergic[/h3]
+[img]https://i.imgur.com/9JJGbFX.png[/img]
+[b]Learn Rate:[/b] 125% 
+[b]Effect[/b]: Colonist will gradually gain an allergic reaction (health effect that decreases breathing, talking, and sight, and - at the highest levels - causes vomiting) while working with the skill.
+
+[h3]Bored[/h3]
+[img]https://i.imgur.com/4DyEJMB.png[/img]
+[b]Learn Rate:[/b] 110%
+[b]Effect[/b]: Colonist will randomly take a nap if they work with the skill for too long.
+
+[h3]Forgetful[/h3]
+[img]https://i.imgur.com/7aeusbI.png[/img] 
+[b]Learn Rate:[/b] 180% 
+[b]Effect[/b]: Colonist loses experience in this skill at twice the normal rate.
+
+[h3]Stagnant[/h3]
+[img]https://i.imgur.com/ot521Bg.png[/img] 
+[b]Learn Rate:[/b] 0%
+[b]Effect[/b]: Colonist can't gain or lose experience in this skill. Usually only shows up on colonists with high (10+) skill.
 
 
+--------------------------------------------------------------------------------------------------
+
+[h2]Load order[/h2]
+
+Harmony
+Core
+Royalty
+...
+[D] Interests Framework
+[D] Interests
+
+------------------------------------------------------------------------------------------------------
+
+Note that not every skill is eligible for every interest, and some interests can only appear on a colonist a certain number of times. This is not a bug.
+
+[h3]Compatible with:[/h3]
+- EdB Prepare Carefully (patch included in framework)
+- RimHUD (patch included in framework)
+- Character Editor (patch included in framework)
+- Work Tab
+- Mad Skills (though this will impact Forgetful)
+- Children, School and Learning (children have a 50% chance to inherit an interest, 25% from their mother and 25% from their father)
+- Most other mods
+
+[h3]Conflicts:[/h3]
+- Static Quality Plus. SQP overrides nearly everything about pawn skills and changes its name every time it updates, both of which make compatibility very difficult.
+- Generally, mods that display skill/passion information in an exclusionary way. I don't know any in particular other than the ones I've explicitly patched, but they're bound to be out there. Let me know if you find one.
+- Custom races may or may not take advantage of expanded passions automatically.
+- Mods that rely on passions - and alter pawn behavior based on them - should behave normally, but won't take advantage of the new interests without a patch.
+
+--------------------------------------------------------------------------------------------------
+
+[h3]Updates[/h3]
+
+06/30/2020: Rebalanced learn rates to encourage use of interests with drawbacks.
+05/15/2020: Added integration with children, school, and learning. Dropped compatibility with static quality plus; see Conflicts.
+05/13/2020: [strike]Added patch for StaticQualityPlus to framework.[/strike]
+05/11/2020: Added patch for YouDoYou to framework.
+05/10/2020: Added settings menu with the simple ability to toggle interests on/off and change their learning rates. Haven't tested this super extensively, so let me know if there are issues.
+
+--------------------------------------------------------------------------------------------------
+
+[h2]Notes[/h2]
+
+Please let me know if you run into any issues, compatibility or otherwise.
 
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]

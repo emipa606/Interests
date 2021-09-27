@@ -1,4 +1,7 @@
 # Changelog for Interests
 
+1.0.1.0 - Wrong displayname of prerequirement
+
+
 1.0.0.0 - First publish
 
